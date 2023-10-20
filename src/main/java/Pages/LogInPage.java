@@ -29,4 +29,9 @@ public class LogInPage extends BasePage{
         getPasswordInputField().sendKeys(password);
         getSignInButton().click();
     }
+//    public void logIntoAnExistingAccount(){
+//        getEmailInputField().sendKeys("euhusxlmggfextjier@cwmxc.com");
+//        getPasswordInputField().sendKeys("password1");
+//        getSignInButton().click();
+//    }
 }
